@@ -15,17 +15,26 @@
     <main>
         <section id="encriptala" class="encriptala">
             <h2>¡Encríptala!</h2>
-            <textarea type="text" class="inputingresa" placeholder="¡Ingresate el texto!"></textarea> 
-            <textarea type="text" class="decooutput" placeholder="Acá sale el código..."></textarea><br>
-            <button class="boton">Encriptar</button>
-            <button class="boton">Elige tipo de encriptado</button>
+            <textarea type="text" class="inputingresa" id="inputingresa1" placeholder="¡Ingresate el texto!"></textarea> 
+            <textarea type="text" class="decooutput" id="decooutput1" placeholder="Acá sale el código..."></textarea><br>
+            <button class="boton" id="buttonencriptado">Encriptar</button>
+            
+            <select class="boton" id="tipoencriptado">
+                <option>Elige tipo de encriptado</option>
+                <option value="volvo">Cifrado de 3</option>
+                <option value="saab">Cifrado de 7</option>
+                </select>
         </section>
         <section id="decodificala" class="decodificala">
-            <h2>¡Decodifícala!</h2>
-            <textarea type="text" class="inputingresa" placeholder="¡Ingresate el código!"></textarea> 
-            <textarea type="text" class="decooutput" placeholder="Acá sale la traducción..."></textarea><br>
-            <button class="boton">Decifrar</button>
-            <button class="boton">Elige tipo de encriptado</button>
+            <h2 class="decodificalatitulo">¡Decodifícala!</h2>
+            <textarea type="text" class="inputingresa" id="inputingresa2" placeholder="¡Ingresate el código!"></textarea> 
+            <textarea type="text" class="decooutput" id="decooutput2" placeholder="Acá sale la traducción..."></textarea><br>
+            <button class="boton" id="buttondecifrar">Decifrar</button>
+            <select class="boton" id="tipodecifrado">
+                <option>Elige tipo de encriptado</option>
+                <option value="volvo">Cifrado de 3</option>
+                <option value="saab">Cifrado de 7</option>
+            </select>
         </section>
     </main>
     <footer class="footer">
@@ -36,4 +45,5 @@
         <p class="paragraph">Copyright 2020</p>
     </footer>
 </body>
+<script type="text/javascript" src="cipher.js"></script>
 </html>
