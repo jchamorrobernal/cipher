@@ -17,7 +17,7 @@
             <h2>¡Encríptala!</h2>
             <textarea type="text" class="inputingresa" id="inputingresa1" placeholder="¡Ingresate el texto!"></textarea> 
             <textarea type="text" class="decooutput" id="decooutput1" placeholder="Acá sale el código..."></textarea><br>
-            <button class="boton" id="buttonencriptado">Encriptar</button>
+            <button class="boton" id="buttonencriptado" >Encriptar</button>
             
             <select class="boton" id="tipoencriptado">
                 <option>Elige tipo de encriptado</option>
@@ -31,9 +31,9 @@
             <textarea type="text" class="decooutput" id="decooutput2" placeholder="Acá sale la traducción..."></textarea><br>
             <button class="boton" id="buttondecifrar">Decifrar</button>
             <select class="boton" id="tipodecifrado">
-                <option>Elige tipo de encriptado</option>
-                <option value="volvo">Cifrado de 3</option>
-                <option value="saab">Cifrado de 7</option>
+                <option value="3" id="cifrado1">Elige tipo de encriptado</option>
+                <option value="7" id="cifrado2">Cifrado de 7</option>
+                <option value="13"id="cifrado3">Cifrado de 13</option> 
             </select>
         </section>
     </main>
@@ -44,6 +44,6 @@
         <img src="img/logo whatsapp.png" alt="Logo de Whatsapp" class="logosfooter">
         <p class="paragraph">Copyright 2020</p>
     </footer>
+    <script type="text/javascript" src="cipher.js"></script>
 </body>
-<script type="text/javascript" src="cipher.js"></script>
 </html>
