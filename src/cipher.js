@@ -24,13 +24,33 @@ document.getElementById("buttonencriptado").addEventListener("click", function()
     let valorEncript = document.getElementById("inputingresa1").value;
     console.log(valorEncript)
     for (let i = 0; i < valorEncript.length; i++) {
-        let valorCharCode = valorEncript.charCodeAt(i);
+        if (valorEncript[i] == valorEncript[i].toUpperCase()){
+            let valorCharCode = valorEncript.charCodeAt(i);
+            console.log(valorCharCode);
+            let valorCharCodeEncript = (((valorCharCode - 65 + cifrado1) %26) + 65);
+            console.log(valorCharCodeEncript)
+            let resultadoEncript = String.fromCharCode(valorCharCodeEncript); 
+        console.log(resultadoEncript)
+        document.getElementById("decooutput1").innerHTML += resultadoEncript;
+        }
+
+        else if(valorEncript[i] == valorEncript[i].toLowerCase()) {
+            let valorCharCode = valorEncript.charCodeAt(i);
+            console.log(valorCharCode);
+            let valorCharCodeEncript = (((valorCharCode - 97 + cifrado1) %26) + 97);
+            console.log(valorCharCodeEncript)
+            let resultadoEncript = String.fromCharCode(valorCharCodeEncript); 
+        console.log(resultadoEncript)
+        document.getElementById("decooutput1").innerHTML += resultadoEncript;
+        }
+
+       /* let valorCharCode = valorEncript.charCodeAt(i);
         console.log(valorCharCode);
         let valorCharCodeEncript = (((valorCharCode - 65 + cifrado1) %26) + 65);
         console.log(valorCharCodeEncript)
         let resultadoEncript = String.fromCharCode(valorCharCodeEncript); 
         console.log(resultadoEncript)
-        document.getElementById("decooutput1").innerHTML += resultadoEncript;
+        document.getElementById("decooutput1").innerHTML += resultadoEncript;*/
         
     };
     });
@@ -41,12 +61,15 @@ document.getElementById("buttondecifrar").addEventListener("click", function(){
     console.log("Hola soy el click elusivo")
     let valorDecifr = document.getElementById("inputingresa2").value;
     console.log(valorDecifr)
-    let valorCharCodeDecifr = valorDecifr.charCodeAt(0);
-    console.log(valorCharCodeDecifr)
-    let valorCharCodeDecifrResul = (((valorCharCodeDecifr - 65 - cifrado1) %26) + 65)
-    console.log(valorCharCodeDecifrResul)
-    let resultadoDecript = String.fromCharCode(valorCharCodeDecifrResul)
-    document.getElementById("decooutput2").innerHTML = resultadoDecript
+    for (let i = 0; i < valorDecifr.length; i++) {
+        let valorCharCodeDecifr = valorDecifr.charCodeAt(i);
+        console.log(valorCharCodeDecifr)
+        let valorCharCodeDecifrResul = (((valorCharCodeDecifr - 65 - cifrado1) %26) + 65);
+        console.log(valorCharCodeDecifrResul)
+        let resultadoDecript = String.fromCharCode(valorCharCodeDecifrResul);
+        console.log(resultadoDecript)
+        document.getElementById("decooutput2").innerHTML += resultadoDecript;
+}
 })
 
    /* var result='';
@@ -143,4 +166,22 @@ console.log(String.fromCharCode(72, 111, 108, 97))
     "116": "t",    "117": "u",    "118": "v",    "119": "w",    "120": "x",    
     "121": "y",    "122": "z",    "123": "{",    "124": "|",    "125": "}",    
     "126": "~",    "127": ""
+*/
+
+/* Respaldo código
+document.getElementById("buttonencriptado").addEventListener("click", function(){
+    console.log("Hola soy el click :D")
+    let valorEncript = document.getElementById("inputingresa1").value;
+    console.log(valorEncript)
+    for (let i = 0; i < valorEncript.length; i++) {
+        let valorCharCode = valorEncript.charCodeAt(i);
+        console.log(valorCharCode);
+        let valorCharCodeEncript = (((valorCharCode - 65 + cifrado1) %26) + 65);
+        console.log(valorCharCodeEncript)
+        let resultadoEncript = String.fromCharCode(valorCharCodeEncript); 
+        console.log(resultadoEncript)
+        document.getElementById("decooutput1").innerHTML += resultadoEncript;
+        
+    };
+    });
 */
