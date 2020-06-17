@@ -38,7 +38,7 @@ Cómo crees que el producto que estás creando está resolviendo sus problemas.
 Interfaz de usuario (UI)
 La interfaz debe permitir al usuario:
 
-Elegir un desplazamiento (offset) indicando cuántas posiciones queremos que el cifrado desplace cada caracter.
+* Elegir un desplazamiento (offset) indicando cuántas posiciones queremos que el cifrado desplace cada caracter. *
 Insertar un mensaje (texto) que queremos cifrar.
 Ver el resultado del mensaje cifrado.
 Insertar un mensaje (texto) a descifrar.
