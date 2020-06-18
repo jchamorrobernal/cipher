@@ -1,21 +1,21 @@
 /* Header */
 
 .header {
-    background-color: #F5AA1A;
+    background-color: #8C7A85;
     text-align: center;
     padding: 10px 0px 10px 0px;
-    color: #AB164D;
+    color: #F0EECE;
 }
 
 /* Sections */
 
 .encriptala {
-    background-color: #F53F1B;
+    background-color: #F28F33;
     padding: 10px 20px 50px 0px;
 }
 
 .decodificala {
-background-color: #04556E;
+background-color: #DBD4D9;
 padding: 10px 20px 50px 0px;
 }
 
@@ -27,6 +27,7 @@ padding: 10px 20px 50px 0px;
     width: 45%;
     height: 300px;
     resize: none;
+    border-radius: 10px;
 }
 
 .decooutput {
@@ -36,8 +37,9 @@ padding: 10px 20px 50px 0px;
     min-width: 200px;
     width: 45%;
     height: 300px;
-    background-color: #E0E4CC;
+    background-color: #F0EECE;
     resize: none;
+    border-radius: 10px;
 }
 
 .inputingresa::placeholder {
@@ -51,7 +53,8 @@ padding: 10px 20px 50px 0px;
 
 .boton {
     margin-left: 20px;
-    background-color: #E0E4CC;
+    background-color: #F0EECE;
+    border-radius: 5px;
 }
 
 /* Fonts */
@@ -65,7 +68,8 @@ h2 {
 }
 
 .decodificalatitulo {
-    color: #ffffff;
+    color: #000411;
+    ;
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 10;
@@ -84,7 +88,7 @@ h2 {
 /* Footer */
 
 .footer {
-    background-color: #AB164D;
+    background-color: #8C7A85;
     text-align: center;
 }
 
