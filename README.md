@@ -45,7 +45,9 @@ Respecto a la estética del sitio, se eligió una paleta de colores priorizando 
 
 ## Por Mejorar…
 Para una futura fase del proyecto se espera realizar más testeo con usuarios, para poder ver de qué maneras usan el sitio. Además de mejorar la interfaz del usuario, estos datos pueden ayudar a entender de qué manera los usuarios quieren interactuar con el sitio y cómo van a difundir su uso en redes sociales. 
+
 También se espera poder ampliar el espectro de caracteres que soporta el encriptado, para poder codificar contenido más complejo que requiera el usuario, como espacios, símbolos y acentuaciones. 
+
 Por último, configurar los botones de redes sociales, para que en vez de abrir el sitio de la red, puedan generar una publicación de “compartir” el código encriptado, para poder difundir por redes sociales. 
 
 ## Esta página fue construida con:
