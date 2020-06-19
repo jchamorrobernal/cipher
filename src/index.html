@@ -13,35 +13,35 @@
         <h1>¡Decíframela!</h1>
     </header>
     <main>
+        <section id="intro" class="intro">
+            <h2>El encriptador más entretenido</h2>
+            <p class="parrafointro">Bienvenido/a a esta herramienta que te permitirá <b>encriptar mensajes y mandarselos a tus amigos/as por tus redes sociales.</b></p>
+            <p class="parrafointro">Tan solo escribe el texto que quieras en mayúsculas o minúsculas, <b>apreta el botón que encripta</b> y ¡listo!, Cuando tengas un texto encriptado, colocalo en la caja de decifrado, <b>apreta el botón</b> y ¡Tada!, <b>ya sabes lo quedecía el mensaje original.</b></p> 
+        </section>
         <section id="encriptala" class="encriptala">
             <h2>¡Encríptala!</h2>
             <textarea type="text" class="inputingresa" id="inputingresa1" placeholder="¡Ingresate el texto!"></textarea> 
             <textarea type="text" class="decooutput" id="decooutput1" placeholder="Acá sale el código..."></textarea><br>
             <button class="boton" id="buttonencriptado" >Encriptar</button>
+            <p class="offset">Elije el número de cifrado </p>
+            <input type="text" id="inputencriptado" value="3" class="offsetinput">
             
-            <select class="boton" id="tipoencriptado" value="3">
-                <option value="3">Elige tipo de encriptado</option>
-                <option value="7">Cifrado de 7</option>
-                <option value="13">Cifrado de 13</option>
-                </select>
         </section>
         <section id="decodificala" class="decodificala">
             <h2 class="decodificalatitulo">¡Decodifícala!</h2>
             <textarea type="text" class="inputingresa" id="inputingresa2" placeholder="¡Ingresate el código!"></textarea> 
             <textarea type="text" class="decooutput" id="decooutput2" placeholder="Acá sale la traducción..."></textarea><br>
             <button class="boton" id="buttondecifrar">Decifrar</button>
-            <select class="boton" id="tipodecifrado">
-                <option value="3" id="cifrado1">Elige tipo de encriptado</option>
-                <option value="7" id="cifrado2">Cifrado de 7</option>
-                <option value="13"id="cifrado3">Cifrado de 13</option> 
-            </select>
+            <p class="offset">Elije el número de decifrado</p>
+            <input type="text" id="inputdecifrado" value="3" class="offsetinput">
+
         </section>
     </main>
     <footer class="footer">
-        <img src="img/logo facebook.png" alt="Logo de Facebook" class="logosfooter">
-        <img src="img/logo twitter.png" alt="Logo de Twitter" class="logosfooter">
-        <img src="img/logo instagram.png" alt="Logo de Instagram" class="logosfooter">
-        <img src="img/logo whatsapp.png" alt="Logo de Whatsapp" class="logosfooter">
+        <a href="https://www.facebook.com/" target="_blank"><img src="img/logo facebook.png" alt="Logo de Facebook" class="logosfooter"></a>
+        <a href="https://www.twitter.com" target="_blank"><img src="img/logo twitter.png" alt="Logo de Twitter" class="logosfooter"></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="img/logo instagram.png" alt="Logo de Instagram" class="logosfooter"></a>
+        <a href="https://www.whatsapp.com" target="_blank"><img src="img/logo whatsapp.png" alt="Logo de Whatsapp" class="logosfooter"></a>
         <p class="paragraph">Copyright 2020</p>
     </footer>
     <script type="text/javascript" src="index.js"></script>

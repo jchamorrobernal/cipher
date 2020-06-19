@@ -18,11 +18,9 @@ let btnDcf = document.getElementById("buttondecifrar")
 //Funcionalidad
 
 btnEncript.onclick = function encriptar() {
-    window.cipher.encode();
-    
+    window.cipher.encode();  
 }
 
 btnDcf.onclick = function decifrar() {
-    window.cipher.decode();
-    
+    window.cipher.decode(); 
 }

@@ -8,6 +8,10 @@
 }
 
 /* Sections */
+.intro {
+    background-color: #DBD4D9;
+    padding: 10px 20px 50px 0px;
+}
 
 .encriptala {
     background-color: #F28F33;
@@ -19,24 +23,34 @@ background-color: #DBD4D9;
 padding: 10px 20px 50px 0px;
 }
 
+/* Paragraphs */
+
+.parrafointro {
+    margin-left: 2%;
+    font-size: 150%;
+}
+
+.offset {
+    margin-left: 2%;
+    font-size: 150%;
+    display: inline-block;
+}
 /* Buttons and Imputs */
 
 .inputingresa {
-    margin-left: 20px;
+    margin-left: 1%;
     align-self: stretch;
     width: 45%;
-    height: 300px;
+    height: 200px;
     resize: none;
     border-radius: 10px;
 }
 
 .decooutput {
-    margin-left: 0px;
+    margin-left: 1%;
     align-self: stretch;
-    max-width: 1000px;
-    min-width: 200px;
     width: 45%;
-    height: 300px;
+    height: 200px;
     background-color: #F0EECE;
     resize: none;
     border-radius: 10px;
@@ -50,14 +64,25 @@ padding: 10px 20px 50px 0px;
     text-align: justify;
 }
 
-
-.boton {
-    margin-left: 20px;
-    background-color: #F0EECE;
-    border-radius: 5px;
+.offsetinput {
+    margin: 0% 0% 1% 2%;
+    display: inline-block;
 }
 
+.boton {
+    margin-left: 2%;
+    width: 10%;
+    background-color: #F0EECE;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
 /* Fonts */
+
+h1 {
+    font-size: 400%;
+}
 
 h2 {
     margin-left: 20px;
