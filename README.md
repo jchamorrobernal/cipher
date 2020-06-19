@@ -10,7 +10,7 @@ Teniendo eso en mente y buscando información sobre posibles usos del cifrado, s
 Como la aplicación tiene un fin más de esparcimiento y jocosidad, la interfaz debía ser sencilla, priorizando la usabilidad y simpleza de la misma.  En la primera fase se concibió la idea por medio de un sketch  a mano alzada que presenta la idea base del sitio. Una página única donde se prioriza en tamaño y espacio la funcionalidad de encriptado y descifrado.
 
 <img src="imagenesREADME/wireframedeciframela.png">
- 
+
 <img src="imagenesREADME/Figmadeciframela.png"> 
 Luego de armar la maqueta en el sitio, se mantuvo gran parte de la estructura inicial. Pero al ver montado el producto, consideré que era necesario agregar una pequeña descripción del sitio e instrucciones para evitar confusiones respecto al uso. También se modificó la forma en que se puede ingresar la clave numérica para  codificar y decodificar, siendo una etiqueta “input” en vez de una de “selector”.
 
@@ -42,10 +42,12 @@ Respecto a la estética del sitio, se eligió una paleta de colores priorizando 
 <img src="imagenesREADME/flujo8.png"> 
 - Opcional: botones para redes sociales, que abren la dirección de la red social.
 <img src="imagenesREADME/redesociales.png"> 
+
 ## Por Mejorar…
 Para una futura fase del proyecto se espera realizar más testeo con usuarios, para poder ver de qué maneras usan el sitio. Además de mejorar la interfaz del usuario, estos datos pueden ayudar a entender de qué manera los usuarios quieren interactuar con el sitio y cómo van a difundir su uso en redes sociales. 
 También se espera poder ampliar el espectro de caracteres que soporta el encriptado, para poder codificar contenido más complejo que requiera el usuario, como espacios, símbolos y acentuaciones. 
 Por último, configurar los botones de redes sociales, para que en vez de abrir el sitio de la red, puedan generar una publicación de “compartir” el código encriptado, para poder difundir por redes sociales. 
+
 ## Esta página fue construida con:
 * HTML
 * Javascript
